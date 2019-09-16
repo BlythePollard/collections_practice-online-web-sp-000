@@ -36,6 +36,6 @@ end
 
 def add_s(integers)
   integers.each_with_index.collect{|kesha, index| kesha <<"s" if index != "s"}
-end
+
 end  
   
