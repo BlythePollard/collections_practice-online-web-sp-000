@@ -37,7 +37,8 @@ end
 def add_s(integers)
   integers.each_with_index.collect do |kesha, index| 
     if index != 1
-      kesha <<"s"
-  end
+      kesha << "s"
+    elsif index = 1
+      kesha
 end  
   
