@@ -35,6 +35,7 @@ def sum_array(integers)
 end  
 
 def add_s(integers)
-  integers.each_with_index.collect{|kesha, index|
+  integers.each_with_index.collect{|kesha, index| }
+  
 end  
   
